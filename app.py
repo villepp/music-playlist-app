@@ -5,8 +5,8 @@ app = Flask(__name__)
 CORS(app)
 
 videos = [
-    {"id": 1, "url": "https://www.youtube.com/watch?v=yNVg2qaAtnI", "title": "Video 1"},
-    {"id": 2, "url": "https://www.youtube.com/watch?v=_6L6E7TLy10", "title": "Video 2"},
+    {"id": 1, "url": "https://www.youtube.com/watch?v=h0ffIJ7ZO4U", "title": "Video 1"},
+    {"id": 2, "url": "https://www.youtube.com/watch?v=EL_pBJN_O3M", "title": "Video 2"},
 ]
 
 @app.route('/api/videos', methods=['GET'])
